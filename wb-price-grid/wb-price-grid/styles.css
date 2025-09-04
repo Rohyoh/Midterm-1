@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    background-color:  #000000;
+    font-family: 'karla',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+#mainBody{
+  width: 1440px;
+  height: 720px;
+  size: 100%;
+  background-color:  #ffffff;
+  border-radius: 2%;
+}  
+
+#topDocument{
+  padding: 20px;
+  height: 360px;
+  margin-left: 30px; 
+}
+
+#bottomDocument{
+  size: 360px;
+}
+
+#bottomDocumentR{
+  background-color: #1a817f;
+  padding: 20px;
+  height: 360px;
+  border-bottom-left-radius: 2%;
+}
+
+#bottomDocumentL{
+  background-color: #2AB2AF;
+  padding: 20px;
+  height: 360px;
+  border-bottom-right-radius: 2%;
+}
+
+#mainTitle{
+  font-weight: 700;
+  font-size:40px;
+  color:#2AB2AF;
+}
+
+#subTitle{
+  font-weight: 600;
+  font-size:25px;
+  line-height: 1;
+  color:#C0DF34;
+}
+
+#regularText{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.5;
+  color:#969696;
+}
+
+#regularTextBottom{
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 0.5;
+  color:#ffffff;
+}
+
+#mainTitleBottom{
+  font-weight: 700;
+  line-height: 0;
+  font-size:40px;
+  margin-bottom: 3%;
+  color:#ffffff;
+}
+
+#subTitleBottom{
+  font-weight: 600;
+  font-size:25px;
+  margin-top: 2%;
+  line-height: 0;
+  color:#ffffff;
+}
+
+#price-container {
+    display: flex;
+    align-items: baseline;
+    gap: 5px; 
+}
+
+td{
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+#button{
+  background-color: #C0DF34;
+  height: 60px;
+  width: 480px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 1em;
+}
+
+#buttonText{
+  padding-top: 6%;
+  font-weight: 600;
+  font-size:25px;
+  line-height: 0;
+  color: #ffffff;
+}
